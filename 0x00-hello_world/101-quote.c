@@ -1,9 +1,21 @@
-#include <stdio.h>   
-/**
- * main  - Print and that piece of art is useful" - Dora Korpar, 2015-10-19,
- * 
- * Return: 1 
+/*
+ * File: 101-quote.c
+ * Auth: Brennan D Baraban
  */
+
+#include <unistd.h>
+
+/**
+ * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
+ *                followed by a new line, to standard error.
+ * Code by Obi Sam
+ * Return: Always 1.
+ */
+int main(void)
 {
-	 printf("and that piece of art is useful" - Dora Korpar, 2015-10-19");
-}
+	write(2,
+	      "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+	      59);
+
+	return (1);
+}i
