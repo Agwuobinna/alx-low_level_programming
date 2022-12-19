@@ -14,5 +14,3 @@ int _strlen(char *s)
 		a++;
 	return (a);
 }
-Footer
-© 2022 GitHub, Inc.
